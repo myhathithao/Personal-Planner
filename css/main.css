@@ -92,6 +92,14 @@ body {
   overflow-x: hidden;
 }
 
+/* Auth wrapper — must fill the full body flex container */
+#appContainer {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
